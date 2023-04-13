@@ -1,0 +1,137 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 36px 100px 42px;
+}
+
+.link-header {
+    margin-right: 36px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #17233D;
+    cursor: pointer;
+}
+
+.button-header {
+    color: white;
+    font-weight: bold;
+    background: rgb(104, 196, 104);
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+img {
+    width: 500px;
+    height: 380px;
+    margin-left: 121px;
+    display: inline-block;
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+}
+
+h1 {
+    width: 582px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+}
+
+p {
+    width: 493px;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 35px;
+
+}
+
+.link-more {
+    height: 27px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1304px) {
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        margin: 0 15px 0 284px;
+        cursor: pointer;
+        background: #6FBF44;
+        border: 1px solid #6FBF44;
+        border-radius: 6px;
+        padding: 5px;
+        width: 91px;
+        height: 30px;
+        
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.596154px;
+        color: #161A49;
+        width: 304px;
+        height: 60px;
+        margin: 0 auto;
+
+
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #4B505A;
+        width: 304px;
+        margin-bottom: 26px;
+      
+        
+    }
+
+    .link-more {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 1px;
+        color: #6FBF44;
+        margin: 0 auto;
+     
+    }
+
+    .logo {
+        width: 279px;
+        height: 268px;
+        position: absolute;
+        margin: 400px 40px 22px 80px;
+        
+    }
+
+}
